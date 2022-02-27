@@ -4,9 +4,10 @@
 body {
   margin: 0;
   background: #444;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
-li, ul {
+li,
+ul {
   list-style-type: none;
   padding: 0;
 }
@@ -16,11 +17,54 @@ main {
 }
 
 /* solution styles */
+.menu {
 
+}
 
+header {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #eee;
+}
 
+.burger {
+  display: relative;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.burger span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #eee;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: #222;
+  padding: 20px;
+  padding-top: 80px;
+  height: 100%;
+  box-sizing: border-box;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  left: -200px;
+}
+
+nav a {
+  display: block;
+  color: fff;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
 /* open state */
-
-
 
 /* transitions */
